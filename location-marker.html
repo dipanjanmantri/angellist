@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Simple icons</title>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+
+// This example adds a marker to indicate the position of Bondi Beach in Sydney,
+// Australia.
+function initMap() {
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 4,
+    center: {lat: 37, lng: -121}
+  });
+
+  var imagered = 'sred.jpg';
+  var imagewhite = 'swhite.jpg';
+  var imagegreen = 'sgreen.png';
+  var imageblue = 'sblue.png';
+  
+  var HQ = new google.maps.Marker({
+    position: {lat: 37.753038, lng: -122.423198},
+    map: map,
+    icon: imagewhite
+  });
+  
+  var dist1 = new google.maps.Marker({
+    position: {lat: 37.006852, lng: -122.064148},
+    map: map,
+    icon: imagered
+  });
+  
+  var dist2 = new google.maps.Marker({
+    position: {lat: 37.527798, lng:  -122.312989},
+    map: map,
+    icon: imagered
+  });
+  
+  
+    var retloc1 = new google.maps.Marker({
+    position: {lat: 37.542571, lng: -121.993037},
+    map: map,
+    icon: imagegreen
+  });
+  
+    var retloc2 = new google.maps.Marker({
+    position: {lat: 37.525400, lng: -122.037764},
+    map: map,
+    icon: imagegreen
+  });
+  
+    var retloc3 = new google.maps.Marker({
+    position: {lat: 37.587546, lng: -122.066716},
+    map: map,
+    icon: imagegreen
+  });
+  
+    var retloc4 = new google.maps.Marker({
+    position: {lat: 37.587546, lng: -122.066716},
+    map: map,
+    icon: imagegreen
+  });
+  
+    var retloc5 = new google.maps.Marker({
+    position: {lat: 37.660284, lng:  -122.089396},
+    map: map,
+    icon: imagegreen
+  });
+  
+    var retloc6 = new google.maps.Marker({
+    position: {lat: 37.492686, lng:  -122.249346},
+    map: map,
+    icon: imagegreen
+  });
+  
+    var retloc7 = new google.maps.Marker({
+    position: {lat: 37.007888, lng: -122.067355},
+    map: map,
+    icon: imagegreen
+  });
+  
+    var retloc8 = new google.maps.Marker({
+    position: {lat: 37.113164, lng: -121.651485},
+    map: map,
+    icon: imagegreen
+  });
+  
+    var retloc9 = new google.maps.Marker({
+    position: {lat: 37.638625, lng: -121.911430},
+    map: map,
+    icon: imagegreen
+  });
+  
+    var retloc10 = new google.maps.Marker({
+    position: {lat: 37.594870, lng: -122.473562},
+    map: map,
+    icon: imagegreen
+  });
+  
+    var retloc11 = new google.maps.Marker({
+    position: {lat: 36.995174, lng: -121.602745},
+    map: map,
+    icon: imagegreen
+  });
+  
+    var callcenter = new google.maps.Marker({
+    position: {lat: 37.344717, lng: -121.979666},
+    map: map,
+    icon: imageblue
+  });
+    
+}
+
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?signed_in=true&callback=initMap"></script>
+  </body>
+</html>
