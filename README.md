@@ -1,5 +1,6 @@
-# angellist
+
 MyCoBayAreaLocations
+
 Using Google map API to mark different locations with flags of different colors and red circles of different sizes.
 
 The HTML+Javascript code serves the purpose of a location marker which marks different branches of a company. 
