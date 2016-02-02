@@ -10,4 +10,8 @@ The green flag represents the company branches.
 
 The read flag represents the warehouses.
 
-The red circles of different sizes represents the capacity of each warehouse.
+The red circles of different sizes represents the production capacity of each manufacturing units.
+
+
+
+
